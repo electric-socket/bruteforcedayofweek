@@ -1,0 +1,19 @@
+# Brute force day of the week
+
+After about the third or fourth time <s>you've</s> <i>I've</i> tried to write a (or modify someone else's) formula to compute Zeller's Congruence to 
+calculate the day of the week, and it's wrong every time, <s>you</s> I get the impression that maybe <s>you</s> I need a stupid, simple method to produce the day of the week. So, 
+I wrote one. And before too long I'll have more to add here. Since I want them to be simple and easy to understand, I wrote them in Basic, specifically QB64 Phoenix Edition.
+
+Here they are:
+1. BruteForceDayoftheWeek.bas - Friday, October 4 2024 - Starts with Wednesday, January 1, 1800, and just adds 1 for each day, when it gets to the end of the week, it starts over, and continues until 12/31/9999. As I mention in the program, on a 3.2ghz computer it takes 0.77 seconds. Since it saves all the days it computes, this produces 8200 *365.25 days, or about 2.994 million days. This complies fully with the "Iron Triangle Rule" of problem solutions: "Quick, easy, cheap; pick any two." Triially easy, quick to do, but expensive on memory.
+2. (Coming Soon)
+
+# Checksum Values
+SHA256 hash of BruteForceDate.bas (10/04/2024  10:27 AM):
+1194f4f9f893935eb3167f07ae27d75c9bc950b2a14fb0f13051ad922f4ce6ee
+
+SHA256 hash of BruteForceDate.exe (10/04/2024  10:08 AM):
+70deee84d9da339d9d789a550ea013e675d4a689d7d1a3a00a6347b53300f05f
+
+
+Paul Robinson
