@@ -8,6 +8,7 @@ Here they are:
 2. BruteForce2.bas - Friday, October 4 2024 - Does something similar to above, but only collects the days of the week for the year it is run. It still goes all the way back to 1-1-1800 and carries the days counted forward without storing them.
 3. GetYearDay.bas - Friday, October 4 2024 - Creates DayTable.bas, a set of data statements containing the day of the week for January 1 1800 to 9999.
 4. Daytable.bas - Friday, October 4 2024 - The table created by GetYearDay.bas
+5. GetYearandLeapDay.bas - Friday, October 4 2024 - Similar to GetYearDay.bas, creates DayandLeapTable.bas, the table of January 1 for 1800-9999 only leap years have 10 added
 
 
 # Checksum Values
